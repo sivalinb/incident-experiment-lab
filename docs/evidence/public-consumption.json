@@ -1,0 +1,10 @@
+{
+  "exit_code": 0,
+  "result": {
+    "source": "nab-taxi",
+    "accepted": 145,
+    "rejected": 22,
+    "lost": 0
+  },
+  "error": ""
+}

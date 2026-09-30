@@ -1,0 +1,14 @@
+{
+  "source_sha256": "1270cdbb0b0e6c338685799a4e9173e633783129705e12e466afc2dcf0201081",
+  "config": {
+    "project": "incident-experiment-lab",
+    "cpus": 1,
+    "memoryMb": 256,
+    "events": 60,
+    "queueCapacity": 100,
+    "outageStart": 15,
+    "outageEnd": 45,
+    "crashAt": 30,
+    "drainPerTick": 3
+  }
+}

@@ -1,0 +1,10 @@
+module IncidentExperiment
+project: String = "incident-experiment-lab"
+cpus: Int(this >= 1 && this <= 4) = 1
+memoryMb: Int(this >= 256 && this <= 2048) = 256
+events: Int(this >= 10 && this <= 500) = 60
+queueCapacity: Int(this >= 5 && this <= 1000) = 100
+outageStart: Int(this >= 0) = 15
+outageEnd: Int(this > outageStart) = 45
+crashAt: Int(this >= outageStart && this < outageEnd) = 30
+drainPerTick: Int(this >= 1 && this <= 20) = 3

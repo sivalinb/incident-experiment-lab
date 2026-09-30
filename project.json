@@ -1,0 +1,6 @@
+{
+  "slug": "incident-experiment-lab",
+  "title": "Incident Experiment Lab",
+  "description": "Compare recovery policies under controlled failures.",
+  "port": 8503
+}

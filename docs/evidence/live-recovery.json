@@ -1,0 +1,904 @@
+{
+  "mode": "live HTTP queue / Apple Container",
+  "runs": [
+    {
+      "policy": "volatile",
+      "accepted": 60,
+      "rejected": 0,
+      "delivered_unique": 45,
+      "lost": 15,
+      "duplicates": 0,
+      "recovery_ratio": 0.75,
+      "delivery_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "lost_ids": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "timeline": [
+        {
+          "tick": 0,
+          "queue_depth": 1,
+          "delivered": 0,
+          "sink_available": 1
+        },
+        {
+          "tick": 1,
+          "queue_depth": 1,
+          "delivered": 1,
+          "sink_available": 1
+        },
+        {
+          "tick": 2,
+          "queue_depth": 1,
+          "delivered": 2,
+          "sink_available": 1
+        },
+        {
+          "tick": 3,
+          "queue_depth": 1,
+          "delivered": 3,
+          "sink_available": 1
+        },
+        {
+          "tick": 4,
+          "queue_depth": 1,
+          "delivered": 4,
+          "sink_available": 1
+        },
+        {
+          "tick": 5,
+          "queue_depth": 1,
+          "delivered": 5,
+          "sink_available": 1
+        },
+        {
+          "tick": 6,
+          "queue_depth": 1,
+          "delivered": 6,
+          "sink_available": 1
+        },
+        {
+          "tick": 7,
+          "queue_depth": 1,
+          "delivered": 7,
+          "sink_available": 1
+        },
+        {
+          "tick": 8,
+          "queue_depth": 1,
+          "delivered": 8,
+          "sink_available": 1
+        },
+        {
+          "tick": 9,
+          "queue_depth": 1,
+          "delivered": 9,
+          "sink_available": 1
+        },
+        {
+          "tick": 10,
+          "queue_depth": 1,
+          "delivered": 10,
+          "sink_available": 1
+        },
+        {
+          "tick": 11,
+          "queue_depth": 1,
+          "delivered": 11,
+          "sink_available": 1
+        },
+        {
+          "tick": 12,
+          "queue_depth": 1,
+          "delivered": 12,
+          "sink_available": 1
+        },
+        {
+          "tick": 13,
+          "queue_depth": 1,
+          "delivered": 13,
+          "sink_available": 1
+        },
+        {
+          "tick": 14,
+          "queue_depth": 1,
+          "delivered": 14,
+          "sink_available": 1
+        },
+        {
+          "tick": 15,
+          "queue_depth": 1,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 16,
+          "queue_depth": 2,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 17,
+          "queue_depth": 3,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 18,
+          "queue_depth": 4,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 19,
+          "queue_depth": 5,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 20,
+          "queue_depth": 6,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 21,
+          "queue_depth": 7,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 22,
+          "queue_depth": 8,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 23,
+          "queue_depth": 9,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 24,
+          "queue_depth": 10,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 25,
+          "queue_depth": 11,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 26,
+          "queue_depth": 12,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 27,
+          "queue_depth": 13,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 28,
+          "queue_depth": 14,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 29,
+          "queue_depth": 15,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 30,
+          "queue_depth": 16,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 31,
+          "queue_depth": 17,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 32,
+          "queue_depth": 18,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 33,
+          "queue_depth": 19,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 34,
+          "queue_depth": 20,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 35,
+          "queue_depth": 21,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 36,
+          "queue_depth": 22,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 37,
+          "queue_depth": 23,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 38,
+          "queue_depth": 24,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 39,
+          "queue_depth": 25,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 40,
+          "queue_depth": 26,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 41,
+          "queue_depth": 27,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 42,
+          "queue_depth": 28,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 43,
+          "queue_depth": 29,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 44,
+          "queue_depth": 30,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 45,
+          "queue_depth": 30,
+          "delivered": 16,
+          "sink_available": 1
+        },
+        {
+          "tick": 46,
+          "queue_depth": 28,
+          "delivered": 19,
+          "sink_available": 1
+        },
+        {
+          "tick": 47,
+          "queue_depth": 26,
+          "delivered": 22,
+          "sink_available": 1
+        },
+        {
+          "tick": 48,
+          "queue_depth": 25,
+          "delivered": 24,
+          "sink_available": 1
+        },
+        {
+          "tick": 49,
+          "queue_depth": 23,
+          "delivered": 27,
+          "sink_available": 1
+        },
+        {
+          "tick": 50,
+          "queue_depth": 20,
+          "delivered": 31,
+          "sink_available": 1
+        },
+        {
+          "tick": 51,
+          "queue_depth": 19,
+          "delivered": 33,
+          "sink_available": 1
+        },
+        {
+          "tick": 52,
+          "queue_depth": 16,
+          "delivered": 37,
+          "sink_available": 1
+        },
+        {
+          "tick": 53,
+          "queue_depth": 16,
+          "delivered": 38,
+          "sink_available": 1
+        },
+        {
+          "tick": 54,
+          "queue_depth": 16,
+          "delivered": 39,
+          "sink_available": 1
+        },
+        {
+          "tick": 55,
+          "queue_depth": 16,
+          "delivered": 40,
+          "sink_available": 1
+        },
+        {
+          "tick": 56,
+          "queue_depth": 16,
+          "delivered": 41,
+          "sink_available": 1
+        },
+        {
+          "tick": 57,
+          "queue_depth": 16,
+          "delivered": 42,
+          "sink_available": 1
+        },
+        {
+          "tick": 58,
+          "queue_depth": 16,
+          "delivered": 43,
+          "sink_available": 1
+        },
+        {
+          "tick": 59,
+          "queue_depth": 16,
+          "delivered": 44,
+          "sink_available": 1
+        }
+      ],
+      "latency_ms_mean": 98.07426848888892,
+      "wall_seconds": 1.9935652090000002,
+      "mode": "live HTTP queue / Apple Container",
+      "duration_s": 4.638269958028104,
+      "scope": "Instrumented Python queue workload; not a measurement of the OTel Collector",
+      "config": {
+        "events": 60,
+        "queueCapacity": 100,
+        "outageStart": 15,
+        "outageEnd": 45,
+        "crashAt": 30,
+        "drainPerTick": 3
+      }
+    },
+    {
+      "policy": "durable",
+      "accepted": 60,
+      "rejected": 0,
+      "delivered_unique": 60,
+      "lost": 0,
+      "duplicates": 0,
+      "recovery_ratio": 1.0,
+      "delivery_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "lost_ids": [],
+      "timeline": [
+        {
+          "tick": 0,
+          "queue_depth": 1,
+          "delivered": 0,
+          "sink_available": 1
+        },
+        {
+          "tick": 1,
+          "queue_depth": 1,
+          "delivered": 1,
+          "sink_available": 1
+        },
+        {
+          "tick": 2,
+          "queue_depth": 1,
+          "delivered": 2,
+          "sink_available": 1
+        },
+        {
+          "tick": 3,
+          "queue_depth": 1,
+          "delivered": 3,
+          "sink_available": 1
+        },
+        {
+          "tick": 4,
+          "queue_depth": 1,
+          "delivered": 4,
+          "sink_available": 1
+        },
+        {
+          "tick": 5,
+          "queue_depth": 1,
+          "delivered": 5,
+          "sink_available": 1
+        },
+        {
+          "tick": 6,
+          "queue_depth": 1,
+          "delivered": 6,
+          "sink_available": 1
+        },
+        {
+          "tick": 7,
+          "queue_depth": 1,
+          "delivered": 7,
+          "sink_available": 1
+        },
+        {
+          "tick": 8,
+          "queue_depth": 1,
+          "delivered": 8,
+          "sink_available": 1
+        },
+        {
+          "tick": 9,
+          "queue_depth": 1,
+          "delivered": 9,
+          "sink_available": 1
+        },
+        {
+          "tick": 10,
+          "queue_depth": 1,
+          "delivered": 10,
+          "sink_available": 1
+        },
+        {
+          "tick": 11,
+          "queue_depth": 1,
+          "delivered": 11,
+          "sink_available": 1
+        },
+        {
+          "tick": 12,
+          "queue_depth": 1,
+          "delivered": 12,
+          "sink_available": 1
+        },
+        {
+          "tick": 13,
+          "queue_depth": 1,
+          "delivered": 13,
+          "sink_available": 1
+        },
+        {
+          "tick": 14,
+          "queue_depth": 1,
+          "delivered": 14,
+          "sink_available": 1
+        },
+        {
+          "tick": 15,
+          "queue_depth": 1,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 16,
+          "queue_depth": 2,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 17,
+          "queue_depth": 3,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 18,
+          "queue_depth": 4,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 19,
+          "queue_depth": 5,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 20,
+          "queue_depth": 6,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 21,
+          "queue_depth": 7,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 22,
+          "queue_depth": 8,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 23,
+          "queue_depth": 9,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 24,
+          "queue_depth": 10,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 25,
+          "queue_depth": 11,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 26,
+          "queue_depth": 12,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 27,
+          "queue_depth": 13,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 28,
+          "queue_depth": 14,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 29,
+          "queue_depth": 15,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 30,
+          "queue_depth": 16,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 31,
+          "queue_depth": 17,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 32,
+          "queue_depth": 18,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 33,
+          "queue_depth": 19,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 34,
+          "queue_depth": 20,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 35,
+          "queue_depth": 21,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 36,
+          "queue_depth": 22,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 37,
+          "queue_depth": 23,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 38,
+          "queue_depth": 24,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 39,
+          "queue_depth": 25,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 40,
+          "queue_depth": 26,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 41,
+          "queue_depth": 27,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 42,
+          "queue_depth": 28,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 43,
+          "queue_depth": 29,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 44,
+          "queue_depth": 30,
+          "delivered": 15,
+          "sink_available": 0
+        },
+        {
+          "tick": 45,
+          "queue_depth": 30,
+          "delivered": 16,
+          "sink_available": 1
+        },
+        {
+          "tick": 46,
+          "queue_depth": 29,
+          "delivered": 18,
+          "sink_available": 1
+        },
+        {
+          "tick": 47,
+          "queue_depth": 28,
+          "delivered": 20,
+          "sink_available": 1
+        },
+        {
+          "tick": 48,
+          "queue_depth": 27,
+          "delivered": 22,
+          "sink_available": 1
+        },
+        {
+          "tick": 49,
+          "queue_depth": 25,
+          "delivered": 25,
+          "sink_available": 1
+        },
+        {
+          "tick": 50,
+          "queue_depth": 24,
+          "delivered": 27,
+          "sink_available": 1
+        },
+        {
+          "tick": 51,
+          "queue_depth": 22,
+          "delivered": 30,
+          "sink_available": 1
+        },
+        {
+          "tick": 52,
+          "queue_depth": 22,
+          "delivered": 31,
+          "sink_available": 1
+        },
+        {
+          "tick": 53,
+          "queue_depth": 20,
+          "delivered": 34,
+          "sink_available": 1
+        },
+        {
+          "tick": 54,
+          "queue_depth": 19,
+          "delivered": 36,
+          "sink_available": 1
+        },
+        {
+          "tick": 55,
+          "queue_depth": 17,
+          "delivered": 39,
+          "sink_available": 1
+        },
+        {
+          "tick": 56,
+          "queue_depth": 16,
+          "delivered": 41,
+          "sink_available": 1
+        },
+        {
+          "tick": 57,
+          "queue_depth": 15,
+          "delivered": 43,
+          "sink_available": 1
+        },
+        {
+          "tick": 58,
+          "queue_depth": 14,
+          "delivered": 45,
+          "sink_available": 1
+        },
+        {
+          "tick": 59,
+          "queue_depth": 12,
+          "delivered": 48,
+          "sink_available": 1
+        }
+      ],
+      "latency_ms_mean": 348.62960085000003,
+      "wall_seconds": 2.104652292,
+      "mode": "live HTTP queue / Apple Container",
+      "duration_s": 3.3826339159859344,
+      "scope": "Instrumented Python queue workload; not a measurement of the OTel Collector",
+      "config": {
+        "events": 60,
+        "queueCapacity": 100,
+        "outageStart": 15,
+        "outageEnd": 45,
+        "crashAt": 30,
+        "drainPerTick": 3
+      }
+    }
+  ],
+  "config_provenance": {
+    "mode": "Pkl evaluated",
+    "sha256": "1270cdbb0b0e6c338685799a4e9173e633783129705e12e466afc2dcf0201081"
+  }
+}
